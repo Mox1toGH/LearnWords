@@ -1,0 +1,1815 @@
+[
+  {
+    "id": 1,
+    "section": 1,
+    "page": 1,
+    "en": "ordinary-looking",
+    "ua": "звичайна зовнішність"
+  },
+  {
+    "id": 2,
+    "section": 1,
+    "page": 1,
+    "en": "similar to",
+    "ua": "подібний до"
+  },
+  {
+    "id": 3,
+    "section": 1,
+    "page": 1,
+    "en": "artist",
+    "ua": "художник"
+  },
+  {
+    "id": 4,
+    "section": 1,
+    "page": 1,
+    "en": "gentle",
+    "ua": "м'який, лагідний"
+  },
+  {
+    "id": 5,
+    "section": 1,
+    "page": 1,
+    "en": "to smoke a pipe",
+    "ua": "курити люльку"
+  },
+  {
+    "id": 6,
+    "section": 1,
+    "page": 1,
+    "en": "to remove",
+    "ua": "видалити, забрати"
+  },
+  {
+    "id": 7,
+    "section": 1,
+    "page": 1,
+    "en": "to exhibit",
+    "ua": "виставити напоказ"
+  },
+  {
+    "id": 8,
+    "section": 1,
+    "page": 1,
+    "en": "to shake hands",
+    "ua": "подати руку"
+  },
+  {
+    "id": 9,
+    "section": 1,
+    "page": 1,
+    "en": "to shake head",
+    "ua": "похитати головою"
+  },
+  {
+    "id": 10,
+    "section": 1,
+    "page": 1,
+    "en": "magnificent",
+    "ua": "величний"
+  },
+  {
+    "id": 11,
+    "section": 1,
+    "page": 1,
+    "en": "to sound foolish",
+    "ua": "звучати по-дурному"
+  },
+  {
+    "id": 12,
+    "section": 1,
+    "page": 1,
+    "en": "to laugh",
+    "ua": "сміятися"
+  },
+  {
+    "id": 13,
+    "section": 1,
+    "page": 1,
+    "en": "soul",
+    "ua": "душа"
+  },
+  {
+    "id": 14,
+    "section": 1,
+    "page": 1,
+    "en": "to be aware of",
+    "ua": "усвідомлювати"
+  },
+  {
+    "id": 15,
+    "section": 1,
+    "page": 1,
+    "en": "to be afraid of",
+    "ua": "боятися"
+  },
+  {
+    "id": 16,
+    "section": 1,
+    "page": 1,
+    "en": "to stretch",
+    "ua": "простягатися"
+  },
+  {
+    "id": 17,
+    "section": 1,
+    "page": 1,
+    "en": "to sigh",
+    "ua": "зітхати"
+  },
+  {
+    "id": 18,
+    "section": 1,
+    "page": 1,
+    "en": "boring",
+    "ua": "нудний"
+  },
+  {
+    "id": 19,
+    "section": 1,
+    "page": 1,
+    "en": "Don't be a bore!",
+    "ua": "не будь занудою"
+  },
+  {
+    "id": 20,
+    "section": 1,
+    "page": 1,
+    "en": "vision",
+    "ua": "бачення"
+  },
+  {
+    "id": 21,
+    "section": 1,
+    "page": 1,
+    "en": "inspiration",
+    "ua": "натхнення"
+  },
+  {
+    "id": 22,
+    "section": 1,
+    "page": 1,
+    "en": "to stare",
+    "ua": "довго дивитися, витріщатися"
+  },
+  {
+    "id": 23,
+    "section": 1,
+    "page": 1,
+    "en": "to look forward to",
+    "ua": "чекати з нетерпінням"
+  },
+  {
+    "id": 24,
+    "section": 1,
+    "page": 1,
+    "en": "to stir",
+    "ua": "мішати, помішувати"
+  },
+  {
+    "id": 25,
+    "section": 1,
+    "page": 1,
+    "en": "to spoil",
+    "ua": "зіпсувати"
+  },
+  {
+    "id": 26,
+    "section": 1,
+    "page": 1,
+    "en": "pipe",
+    "ua": "труба, люлька для куріння"
+  },
+  {
+    "id": 27,
+    "section": 1,
+    "page": 1,
+    "en": "make do smth",
+    "ua": "змушувати щось робити"
+  },
+  {
+    "id": 28,
+    "section": 1,
+    "page": 1,
+    "en": "stay still",
+    "ua": "сидіти тихо"
+  },
+  {
+    "id": 29,
+    "section": 1,
+    "page": 1,
+    "en": "fluently",
+    "ua": "вільно"
+  },
+  {
+    "id": 30,
+    "section": 1,
+    "page": 1,
+    "en": "confident",
+    "ua": "впевнений"
+  },
+  {
+    "id": 31,
+    "section": 1,
+    "page": 2,
+    "en": "sailor / seaman",
+    "ua": "моряк"
+  },
+  {
+    "id": 32,
+    "section": 1,
+    "page": 2,
+    "en": "although",
+    "ua": "хоча"
+  },
+  {
+    "id": 33,
+    "section": 1,
+    "page": 2,
+    "en": "herbs",
+    "ua": "трави"
+  },
+  {
+    "id": 34,
+    "section": 1,
+    "page": 2,
+    "en": "cupboard",
+    "ua": "навісна тумба в кухні"
+  },
+  {
+    "id": 35,
+    "section": 1,
+    "page": 2,
+    "en": "flat",
+    "ua": "квартира, плаский"
+  },
+  {
+    "id": 36,
+    "section": 1,
+    "page": 2,
+    "en": "skinny",
+    "ua": "дуже худий"
+  },
+  {
+    "id": 37,
+    "section": 1,
+    "page": 2,
+    "en": "slim",
+    "ua": "худорлявий"
+  },
+  {
+    "id": 38,
+    "section": 1,
+    "page": 2,
+    "en": "plump / chubby",
+    "ua": "пухкий, повненький"
+  },
+  {
+    "id": 39,
+    "section": 1,
+    "page": 2,
+    "en": "freckles",
+    "ua": "веснянки"
+  },
+  {
+    "id": 40,
+    "section": 1,
+    "page": 2,
+    "en": "wrinkles",
+    "ua": "зморшки"
+  },
+  {
+    "id": 41,
+    "section": 1,
+    "page": 2,
+    "en": "pale",
+    "ua": "блідий"
+  },
+  {
+    "id": 42,
+    "section": 1,
+    "page": 2,
+    "en": "fair",
+    "ua": "світлий"
+  },
+  {
+    "id": 43,
+    "section": 1,
+    "page": 2,
+    "en": "mole",
+    "ua": "родимка"
+  },
+  {
+    "id": 44,
+    "section": 1,
+    "page": 2,
+    "en": "birthmark",
+    "ua": "родима пляма"
+  },
+  {
+    "id": 45,
+    "section": 1,
+    "page": 2,
+    "en": "turned-up nose",
+    "ua": "кирпатий ніс"
+  },
+  {
+    "id": 46,
+    "section": 1,
+    "page": 2,
+    "en": "pigtails",
+    "ua": "хвостики"
+  },
+  {
+    "id": 47,
+    "section": 1,
+    "page": 2,
+    "en": "ponytail",
+    "ua": "хвіст"
+  },
+  {
+    "id": 48,
+    "section": 1,
+    "page": 2,
+    "en": "hooked nose",
+    "ua": "гачкуватий ніс"
+  },
+  {
+    "id": 49,
+    "section": 1,
+    "page": 2,
+    "en": "obese",
+    "ua": "повний"
+  },
+  {
+    "id": 50,
+    "section": 1,
+    "page": 2,
+    "en": "overweight / fat",
+    "ua": "товстий (лайливе)"
+  },
+  {
+    "id": 51,
+    "section": 1,
+    "page": 2,
+    "en": "braid",
+    "ua": "коса"
+  },
+  {
+    "id": 52,
+    "section": 1,
+    "page": 2,
+    "en": "fringe",
+    "ua": "чубчик, гривка"
+  },
+  {
+    "id": 53,
+    "section": 1,
+    "page": 2,
+    "en": "scar",
+    "ua": "шрам"
+  },
+  {
+    "id": 54,
+    "section": 1,
+    "page": 2,
+    "en": "stubble",
+    "ua": "щетина"
+  },
+  {
+    "id": 55,
+    "section": 1,
+    "page": 2,
+    "en": "handsome",
+    "ua": "гарний (про чоловіка)"
+  },
+  {
+    "id": 56,
+    "section": 1,
+    "page": 2,
+    "en": "beautiful",
+    "ua": "гарна (про жінку)"
+  },
+  {
+    "id": 57,
+    "section": 1,
+    "page": 2,
+    "en": "sideburns",
+    "ua": "бакенбарди"
+  },
+  {
+    "id": 58,
+    "section": 1,
+    "page": 2,
+    "en": "braces",
+    "ua": "брекети, підтяжки"
+  },
+  {
+    "id": 59,
+    "section": 1,
+    "page": 3,
+    "en": "bun",
+    "ua": "гулька (зачіска), булочка"
+  },
+  {
+    "id": 60,
+    "section": 1,
+    "page": 3,
+    "en": "pretty",
+    "ua": "гарний / досить"
+  },
+  {
+    "id": 61,
+    "section": 1,
+    "page": 3,
+    "en": "goatee",
+    "ua": "борідка (без вусів)"
+  },
+  {
+    "id": 62,
+    "section": 1,
+    "page": 3,
+    "en": "bald",
+    "ua": "лисий"
+  },
+  {
+    "id": 63,
+    "section": 1,
+    "page": 3,
+    "en": "thin",
+    "ua": "худий, тонкий"
+  },
+  {
+    "id": 64,
+    "section": 1,
+    "page": 3,
+    "en": "thick",
+    "ua": "товстий, густий"
+  },
+  {
+    "id": 65,
+    "section": 1,
+    "page": 3,
+    "en": "lazy",
+    "ua": "лінивий"
+  },
+  {
+    "id": 66,
+    "section": 1,
+    "page": 3,
+    "en": "naughty / disobedient",
+    "ua": "нечемний"
+  },
+  {
+    "id": 67,
+    "section": 1,
+    "page": 3,
+    "en": "curious",
+    "ua": "допитливий"
+  },
+  {
+    "id": 68,
+    "section": 1,
+    "page": 3,
+    "en": "calm",
+    "ua": "спокійний"
+  },
+  {
+    "id": 69,
+    "section": 1,
+    "page": 3,
+    "en": "polite",
+    "ua": "ввічливий"
+  },
+  {
+    "id": 70,
+    "section": 1,
+    "page": 3,
+    "en": "selfish",
+    "ua": "егоїстичний"
+  },
+  {
+    "id": 71,
+    "section": 1,
+    "page": 3,
+    "en": "clumsy",
+    "ua": "незграбний"
+  },
+  {
+    "id": 72,
+    "section": 1,
+    "page": 3,
+    "en": "hazel eyes",
+    "ua": "карі очі"
+  },
+  {
+    "id": 73,
+    "section": 1,
+    "page": 3,
+    "en": "caring",
+    "ua": "турботливий"
+  },
+  {
+    "id": 74,
+    "section": 1,
+    "page": 3,
+    "en": "attractive",
+    "ua": "привабливий"
+  },
+  {
+    "id": 75,
+    "section": 1,
+    "page": 3,
+    "en": "stubborn",
+    "ua": "впертий"
+  },
+  {
+    "id": 76,
+    "section": 1,
+    "page": 3,
+    "en": "tanned",
+    "ua": "засмаглий"
+  },
+  {
+    "id": 77,
+    "section": 2,
+    "page": 4,
+    "en": "to participate / take part in",
+    "ua": "брати участь"
+  },
+  {
+    "id": 78,
+    "section": 2,
+    "page": 4,
+    "en": "full-time job",
+    "ua": "робота на повний день"
+  },
+  {
+    "id": 79,
+    "section": 2,
+    "page": 4,
+    "en": "part-time job",
+    "ua": "робота на неповний день"
+  },
+  {
+    "id": 80,
+    "section": 2,
+    "page": 4,
+    "en": "per week",
+    "ua": "на тиждень"
+  },
+  {
+    "id": 81,
+    "section": 2,
+    "page": 4,
+    "en": "reliable",
+    "ua": "надійний"
+  },
+  {
+    "id": 82,
+    "section": 2,
+    "page": 4,
+    "en": "willingness",
+    "ua": "бажання"
+  },
+  {
+    "id": 83,
+    "section": 2,
+    "page": 4,
+    "en": "to improve",
+    "ua": "покращити, вдосконалити"
+  },
+  {
+    "id": 84,
+    "section": 2,
+    "page": 4,
+    "en": "lantern",
+    "ua": "ліхтар"
+  },
+  {
+    "id": 85,
+    "section": 2,
+    "page": 4,
+    "en": "affordable price",
+    "ua": "доступна ціна"
+  },
+  {
+    "id": 86,
+    "section": 2,
+    "page": 4,
+    "en": "available",
+    "ua": "доступний, в наявності"
+  },
+  {
+    "id": 87,
+    "section": 2,
+    "page": 4,
+    "en": "insurance",
+    "ua": "страховка"
+  },
+  {
+    "id": 88,
+    "section": 2,
+    "page": 4,
+    "en": "to ensure",
+    "ua": "гарантувати"
+  },
+  {
+    "id": 89,
+    "section": 2,
+    "page": 4,
+    "en": "to insure",
+    "ua": "страхувати"
+  },
+  {
+    "id": 90,
+    "section": 2,
+    "page": 4,
+    "en": "to assure",
+    "ua": "запевнити"
+  },
+  {
+    "id": 91,
+    "section": 2,
+    "page": 4,
+    "en": "a wide range of",
+    "ua": "широкий вибір"
+  },
+  {
+    "id": 92,
+    "section": 2,
+    "page": 4,
+    "en": "to relocate",
+    "ua": "передислокувати, перемістити"
+  },
+  {
+    "id": 93,
+    "section": 2,
+    "page": 4,
+    "en": "navy",
+    "ua": "морфлот"
+  },
+  {
+    "id": 94,
+    "section": 2,
+    "page": 4,
+    "en": "survival tips",
+    "ua": "підказки як вижити"
+  },
+  {
+    "id": 95,
+    "section": 2,
+    "page": 4,
+    "en": "to inspire",
+    "ua": "надихати"
+  },
+  {
+    "id": 96,
+    "section": 2,
+    "page": 4,
+    "en": "eventually",
+    "ua": "згодом"
+  },
+  {
+    "id": 97,
+    "section": 2,
+    "page": 4,
+    "en": "to escape",
+    "ua": "утікати"
+  },
+  {
+    "id": 98,
+    "section": 2,
+    "page": 4,
+    "en": "to endure",
+    "ua": "витримати, винести"
+  },
+  {
+    "id": 99,
+    "section": 2,
+    "page": 4,
+    "en": "to set off",
+    "ua": "вирушити"
+  },
+  {
+    "id": 100,
+    "section": 2,
+    "page": 4,
+    "en": "in search of",
+    "ua": "у пошуку"
+  },
+  {
+    "id": 101,
+    "section": 2,
+    "page": 4,
+    "en": "disregard",
+    "ua": "неповага"
+  },
+  {
+    "id": 102,
+    "section": 2,
+    "page": 4,
+    "en": "to run out of",
+    "ua": "закінчитись"
+  },
+  {
+    "id": 103,
+    "section": 2,
+    "page": 4,
+    "en": "to split",
+    "ua": "розійтися"
+  },
+  {
+    "id": 104,
+    "section": 2,
+    "page": 4,
+    "en": "predators",
+    "ua": "хижаки"
+  },
+  {
+    "id": 105,
+    "section": 2,
+    "page": 4,
+    "en": "to grab",
+    "ua": "схопити"
+  },
+  {
+    "id": 106,
+    "section": 2,
+    "page": 4,
+    "en": "flame",
+    "ua": "полум'я"
+  },
+  {
+    "id": 107,
+    "section": 2,
+    "page": 4,
+    "en": "fever",
+    "ua": "гарячка"
+  },
+  {
+    "id": 108,
+    "section": 2,
+    "page": 4,
+    "en": "on the brink of",
+    "ua": "на межі"
+  },
+  {
+    "id": 109,
+    "section": 2,
+    "page": 4,
+    "en": "in spite of / despite",
+    "ua": "незважаючи на"
+  },
+  {
+    "id": 110,
+    "section": 2,
+    "page": 5,
+    "en": "resort",
+    "ua": "курорт"
+  },
+  {
+    "id": 111,
+    "section": 2,
+    "page": 5,
+    "en": "to gain popularity",
+    "ua": "здобути популярність"
+  },
+  {
+    "id": 112,
+    "section": 2,
+    "page": 5,
+    "en": "to remain",
+    "ua": "залишитися"
+  },
+  {
+    "id": 113,
+    "section": 2,
+    "page": 5,
+    "en": "to be eager to",
+    "ua": "прагнути щось зробити"
+  },
+  {
+    "id": 114,
+    "section": 2,
+    "page": 5,
+    "en": "prisoner / inmate",
+    "ua": "в'язень"
+  },
+  {
+    "id": 115,
+    "section": 2,
+    "page": 5,
+    "en": "friend / mate / fellow / pal / comrade",
+    "ua": "друг, товариш"
+  },
+  {
+    "id": 116,
+    "section": 2,
+    "page": 5,
+    "en": "according to",
+    "ua": "згідно з"
+  },
+  {
+    "id": 117,
+    "section": 2,
+    "page": 5,
+    "en": "to borrow from",
+    "ua": "позичити в когось"
+  },
+  {
+    "id": 118,
+    "section": 2,
+    "page": 5,
+    "en": "to lend to",
+    "ua": "позичити комусь"
+  },
+  {
+    "id": 119,
+    "section": 2,
+    "page": 5,
+    "en": "to be (un)aware of",
+    "ua": "(не)усвідомлювати"
+  },
+  {
+    "id": 120,
+    "section": 2,
+    "page": 5,
+    "en": "threats",
+    "ua": "погрози"
+  },
+  {
+    "id": 121,
+    "section": 2,
+    "page": 5,
+    "en": "the locals",
+    "ua": "місцеві жителі"
+  },
+  {
+    "id": 122,
+    "section": 2,
+    "page": 5,
+    "en": "to suffer hardships",
+    "ua": "мати труднощі"
+  },
+  {
+    "id": 123,
+    "section": 2,
+    "page": 5,
+    "en": "to survive",
+    "ua": "виживати"
+  },
+  {
+    "id": 124,
+    "section": 2,
+    "page": 5,
+    "en": "to travel extensively",
+    "ua": "багато подорожувати"
+  },
+  {
+    "id": 125,
+    "section": 2,
+    "page": 5,
+    "en": "recovery",
+    "ua": "одужання"
+  },
+  {
+    "id": 126,
+    "section": 2,
+    "page": 5,
+    "en": "currently",
+    "ua": "на даний момент"
+  },
+  {
+    "id": 127,
+    "section": 2,
+    "page": 5,
+    "en": "gunman",
+    "ua": "стрілець"
+  },
+  {
+    "id": 128,
+    "section": 2,
+    "page": 5,
+    "en": "guns / arms",
+    "ua": "зброя"
+  },
+  {
+    "id": 129,
+    "section": 2,
+    "page": 5,
+    "en": "spy",
+    "ua": "шпигун"
+  },
+  {
+    "id": 130,
+    "section": 2,
+    "page": 5,
+    "en": "former / ex",
+    "ua": "колишній"
+  },
+  {
+    "id": 131,
+    "section": 2,
+    "page": 5,
+    "en": "to ascend",
+    "ua": "підніматися вверх, сходити"
+  },
+  {
+    "id": 132,
+    "section": 2,
+    "page": 5,
+    "en": "to descend",
+    "ua": "опускатися вниз"
+  },
+  {
+    "id": 133,
+    "section": 2,
+    "page": 5,
+    "en": "flame-thrower",
+    "ua": "вогнемет"
+  },
+  {
+    "id": 134,
+    "section": 2,
+    "page": 5,
+    "en": "summit / peak",
+    "ua": "вершина"
+  },
+  {
+    "id": 135,
+    "section": 2,
+    "page": 6,
+    "en": "remote",
+    "ua": "віддалений"
+  },
+  {
+    "id": 136,
+    "section": 2,
+    "page": 6,
+    "en": "violent",
+    "ua": "жорстокий"
+  },
+  {
+    "id": 137,
+    "section": 2,
+    "page": 6,
+    "en": "environment",
+    "ua": "навколишнє середовище"
+  },
+  {
+    "id": 138,
+    "section": 2,
+    "page": 6,
+    "en": "to draw smb's attention to",
+    "ua": "привернути увагу до"
+  },
+  {
+    "id": 139,
+    "section": 2,
+    "page": 6,
+    "en": "passion (for)",
+    "ua": "пристрасть до"
+  },
+  {
+    "id": 140,
+    "section": 2,
+    "page": 6,
+    "en": "climbing / mountaineering",
+    "ua": "альпінізм"
+  },
+  {
+    "id": 141,
+    "section": 2,
+    "page": 6,
+    "en": "state",
+    "ua": "держава"
+  },
+  {
+    "id": 142,
+    "section": 2,
+    "page": 6,
+    "en": "circumnavigation",
+    "ua": "навколосвітнє подорож"
+  },
+  {
+    "id": 143,
+    "section": 2,
+    "page": 6,
+    "en": "annual",
+    "ua": "щорічний"
+  },
+  {
+    "id": 144,
+    "section": 2,
+    "page": 6,
+    "en": "to survive",
+    "ua": "вижити"
+  },
+  {
+    "id": 145,
+    "section": 2,
+    "page": 6,
+    "en": "fascination",
+    "ua": "захоплення"
+  },
+  {
+    "id": 146,
+    "section": 2,
+    "page": 6,
+    "en": "herd",
+    "ua": "стадо"
+  },
+  {
+    "id": 147,
+    "section": 2,
+    "page": 6,
+    "en": "vast",
+    "ua": "безмежний, широкий"
+  },
+  {
+    "id": 148,
+    "section": 2,
+    "page": 6,
+    "en": "hostile",
+    "ua": "ворожий"
+  },
+  {
+    "id": 149,
+    "section": 2,
+    "page": 6,
+    "en": "reindeer herder",
+    "ua": "оленяр"
+  },
+  {
+    "id": 150,
+    "section": 2,
+    "page": 6,
+    "en": "to defeat",
+    "ua": "перемогти"
+  },
+  {
+    "id": 151,
+    "section": 2,
+    "page": 6,
+    "en": "solo",
+    "ua": "сам"
+  },
+  {
+    "id": 152,
+    "section": 2,
+    "page": 6,
+    "en": "beverage",
+    "ua": "напій"
+  },
+  {
+    "id": 153,
+    "section": 2,
+    "page": 6,
+    "en": "to consume",
+    "ua": "споживати"
+  },
+  {
+    "id": 154,
+    "section": 2,
+    "page": 6,
+    "en": "consumer good",
+    "ua": "споживчі товари"
+  },
+  {
+    "id": 155,
+    "section": 2,
+    "page": 6,
+    "en": "even",
+    "ua": "навіть / рівний"
+  },
+  {
+    "id": 156,
+    "section": 2,
+    "page": 6,
+    "en": "even numbers",
+    "ua": "парні числа"
+  },
+  {
+    "id": 157,
+    "section": 2,
+    "page": 6,
+    "en": "odd numbers",
+    "ua": "непарні числа"
+  },
+  {
+    "id": 158,
+    "section": 2,
+    "page": 6,
+    "en": "recluse",
+    "ua": "відлюдник, самітник"
+  },
+  {
+    "id": 159,
+    "section": 2,
+    "page": 6,
+    "en": "harvest / crops",
+    "ua": "урожай"
+  },
+  {
+    "id": 160,
+    "section": 2,
+    "page": 6,
+    "en": "appropriately",
+    "ua": "належним чином"
+  },
+  {
+    "id": 161,
+    "section": 2,
+    "page": 6,
+    "en": "poll / survey",
+    "ua": "опитування"
+  },
+  {
+    "id": 162,
+    "section": 2,
+    "page": 6,
+    "en": "take after",
+    "ua": "бути схожим на"
+  },
+  {
+    "id": 163,
+    "section": 2,
+    "page": 6,
+    "en": "regiment",
+    "ua": "полк"
+  },
+  {
+    "id": 164,
+    "section": 2,
+    "page": 7,
+    "en": "through / via",
+    "ua": "через"
+  },
+  {
+    "id": 165,
+    "section": 2,
+    "page": 7,
+    "en": "through / across / over",
+    "ua": "через (площину / горизонталь / вертикаль)"
+  },
+  {
+    "id": 166,
+    "section": 2,
+    "page": 7,
+    "en": "to be worth doing smth",
+    "ua": "бути вартим чогось"
+  },
+  {
+    "id": 167,
+    "section": 2,
+    "page": 7,
+    "en": "either",
+    "ua": "кожен з двох"
+  },
+  {
+    "id": 168,
+    "section": 2,
+    "page": 7,
+    "en": "neither",
+    "ua": "жоден з двох"
+  },
+  {
+    "id": 169,
+    "section": 3,
+    "page": 7,
+    "en": "advertisement",
+    "ua": "реклама"
+  },
+  {
+    "id": 170,
+    "section": 3,
+    "page": 7,
+    "en": "advert",
+    "ua": "реклама"
+  },
+  {
+    "id": 171,
+    "section": 3,
+    "page": 7,
+    "en": "ad",
+    "ua": "реклама"
+  },
+  {
+    "id": 172,
+    "section": 3,
+    "page": 7,
+    "en": "to receive",
+    "ua": "отримати"
+  },
+  {
+    "id": 173,
+    "section": 3,
+    "page": 7,
+    "en": "to mend",
+    "ua": "ремонтувати"
+  },
+  {
+    "id": 174,
+    "section": 3,
+    "page": 7,
+    "en": "to fix",
+    "ua": "ремонтувати"
+  },
+  {
+    "id": 175,
+    "section": 3,
+    "page": 7,
+    "en": "to repair",
+    "ua": "ремонтувати"
+  },
+  {
+    "id": 176,
+    "section": 3,
+    "page": 7,
+    "en": "to gain",
+    "ua": "здобути"
+  },
+  {
+    "id": 177,
+    "section": 3,
+    "page": 7,
+    "en": "accountant",
+    "ua": "бухгалтер"
+  },
+  {
+    "id": 178,
+    "section": 3,
+    "page": 7,
+    "en": "trade",
+    "ua": "торгівля"
+  },
+  {
+    "id": 179,
+    "section": 3,
+    "page": 7,
+    "en": "to settle",
+    "ua": "розміститися, поселитися"
+  },
+  {
+    "id": 180,
+    "section": 3,
+    "page": 7,
+    "en": "chimney",
+    "ua": "димар"
+  },
+  {
+    "id": 181,
+    "section": 3,
+    "page": 7,
+    "en": "wall coating",
+    "ua": "сайдинг"
+  },
+  {
+    "id": 182,
+    "section": 3,
+    "page": 7,
+    "en": "moss",
+    "ua": "мох"
+  },
+  {
+    "id": 183,
+    "section": 3,
+    "page": 7,
+    "en": "to remove",
+    "ua": "видаляти, забирати"
+  },
+  {
+    "id": 184,
+    "section": 3,
+    "page": 7,
+    "en": "makeover",
+    "ua": "перевтілення"
+  },
+  {
+    "id": 185,
+    "section": 3,
+    "page": 7,
+    "en": "invisible",
+    "ua": "невидимий"
+  },
+  {
+    "id": 186,
+    "section": 3,
+    "page": 7,
+    "en": "braces",
+    "ua": "брекети, підтяжки"
+  },
+  {
+    "id": 187,
+    "section": 3,
+    "page": 7,
+    "en": "affordable price",
+    "ua": "доступна ціна"
+  },
+  {
+    "id": 188,
+    "section": 3,
+    "page": 7,
+    "en": "to strengthen",
+    "ua": "підсилювати"
+  },
+  {
+    "id": 189,
+    "section": 3,
+    "page": 7,
+    "en": "to be worth doing smth",
+    "ua": "бути вартим"
+  },
+  {
+    "id": 190,
+    "section": 3,
+    "page": 7,
+    "en": "responsible for",
+    "ua": "відповідальний за"
+  },
+  {
+    "id": 191,
+    "section": 3,
+    "page": 8,
+    "en": "to overcome",
+    "ua": "побороти"
+  },
+  {
+    "id": 192,
+    "section": 3,
+    "page": 8,
+    "en": "CFO - chief executive officer",
+    "ua": "головний виконавчий директор"
+  },
+  {
+    "id": 193,
+    "section": 3,
+    "page": 8,
+    "en": "misery",
+    "ua": "бідність"
+  },
+  {
+    "id": 194,
+    "section": 3,
+    "page": 8,
+    "en": "coffee chain",
+    "ua": "мережа кав'ярень"
+  },
+  {
+    "id": 195,
+    "section": 3,
+    "page": 8,
+    "en": "to deliver",
+    "ua": "доставляти"
+  },
+  {
+    "id": 196,
+    "section": 3,
+    "page": 8,
+    "en": "diapers",
+    "ua": "підгузки"
+  },
+  {
+    "id": 197,
+    "section": 3,
+    "page": 8,
+    "en": "insurance",
+    "ua": "страховка"
+  },
+  {
+    "id": 198,
+    "section": 3,
+    "page": 8,
+    "en": "income",
+    "ua": "дохід"
+  },
+  {
+    "id": 199,
+    "section": 3,
+    "page": 8,
+    "en": "loan",
+    "ua": "позика"
+  },
+  {
+    "id": 200,
+    "section": 3,
+    "page": 8,
+    "en": "bartender",
+    "ua": "бармен"
+  },
+  {
+    "id": 201,
+    "section": 3,
+    "page": 8,
+    "en": "ski lodge",
+    "ua": "лижний будиночок"
+  },
+  {
+    "id": 202,
+    "section": 3,
+    "page": 8,
+    "en": "inspiration",
+    "ua": "натхнення"
+  },
+  {
+    "id": 203,
+    "section": 3,
+    "page": 8,
+    "en": "to come up to smb's expectations",
+    "ua": "відповідати очікуванням"
+  },
+  {
+    "id": 204,
+    "section": 3,
+    "page": 8,
+    "en": "houseware",
+    "ua": "посуд для дому"
+  },
+  {
+    "id": 205,
+    "section": 3,
+    "page": 8,
+    "en": "to encounter",
+    "ua": "зустріти"
+  },
+  {
+    "id": 206,
+    "section": 3,
+    "page": 8,
+    "en": "passion",
+    "ua": "пристрасть"
+  },
+  {
+    "id": 207,
+    "section": 3,
+    "page": 8,
+    "en": "to persuade",
+    "ua": "переконати"
+  },
+  {
+    "id": 208,
+    "section": 3,
+    "page": 8,
+    "en": "retail operations",
+    "ua": "операції щодо повернення коштів"
+  },
+  {
+    "id": 209,
+    "section": 3,
+    "page": 8,
+    "en": "fate",
+    "ua": "доля"
+  },
+  {
+    "id": 210,
+    "section": 3,
+    "page": 8,
+    "en": "to reject",
+    "ua": "відкинути"
+  },
+  {
+    "id": 211,
+    "section": 3,
+    "page": 8,
+    "en": "health-care coverage",
+    "ua": "покриття страхування здоров'я"
+  },
+  {
+    "id": 212,
+    "section": 3,
+    "page": 8,
+    "en": "tuition",
+    "ua": "навчання"
+  },
+  {
+    "id": 213,
+    "section": 3,
+    "page": 8,
+    "en": "spouse",
+    "ua": "чоловік або дружина"
+  },
+  {
+    "id": 214,
+    "section": 3,
+    "page": 8,
+    "en": "modest",
+    "ua": "скромний"
+  },
+  {
+    "id": 215,
+    "section": 3,
+    "page": 8,
+    "en": "sci-fi movie",
+    "ua": "науково-фантастичний фільм"
+  },
+  {
+    "id": 216,
+    "section": 3,
+    "page": 8,
+    "en": "science fiction film",
+    "ua": "науково-фантастичний фільм"
+  },
+  {
+    "id": 217,
+    "section": 3,
+    "page": 8,
+    "en": "mature",
+    "ua": "зрілий, дорослий"
+  },
+  {
+    "id": 218,
+    "section": 3,
+    "page": 8,
+    "en": "beetle",
+    "ua": "жук"
+  },
+  {
+    "id": 219,
+    "section": 3,
+    "page": 8,
+    "en": "tightly",
+    "ua": "щільно"
+  },
+  {
+    "id": 220,
+    "section": 3,
+    "page": 8,
+    "en": "cushion",
+    "ua": "диванна подушка"
+  },
+  {
+    "id": 221,
+    "section": 3,
+    "page": 8,
+    "en": "to chase",
+    "ua": "наздоганяти"
+  },
+  {
+    "id": 222,
+    "section": 3,
+    "page": 9,
+    "en": "herd",
+    "ua": "стадо"
+  },
+  {
+    "id": 223,
+    "section": 3,
+    "page": 9,
+    "en": "sheepdog",
+    "ua": "вівчарка"
+  },
+  {
+    "id": 224,
+    "section": 3,
+    "page": 9,
+    "en": "to come across",
+    "ua": "випадково натрапити"
+  },
+  {
+    "id": 225,
+    "section": 3,
+    "page": 9,
+    "en": "marshy",
+    "ua": "болотистий"
+  },
+  {
+    "id": 226,
+    "section": 3,
+    "page": 9,
+    "en": "scents",
+    "ua": "запах"
+  },
+  {
+    "id": 227,
+    "section": 3,
+    "page": 9,
+    "en": "to ground into flour",
+    "ua": "перемолоти на борошно"
+  },
+  {
+    "id": 228,
+    "section": 3,
+    "page": 9,
+    "en": "unpredictable",
+    "ua": "непередбачуваний"
+  },
+  {
+    "id": 229,
+    "section": 3,
+    "page": 9,
+    "en": "to occur",
+    "ua": "трапитися"
+  },
+  {
+    "id": 230,
+    "section": 3,
+    "page": 9,
+    "en": "used to",
+    "ua": "колись бувало"
+  },
+  {
+    "id": 231,
+    "section": 3,
+    "page": 9,
+    "en": "to deceive",
+    "ua": "обманювати"
+  },
+  {
+    "id": 232,
+    "section": 3,
+    "page": 9,
+    "en": "to shoot / shot / shot",
+    "ua": "стріляти"
+  },
+  {
+    "id": 233,
+    "section": 3,
+    "page": 9,
+    "en": "trap",
+    "ua": "пастка"
+  },
+  {
+    "id": 234,
+    "section": 3,
+    "page": 9,
+    "en": "backpacker",
+    "ua": "турист"
+  },
+  {
+    "id": 235,
+    "section": 3,
+    "page": 9,
+    "en": "compulsory",
+    "ua": "обов'язковий"
+  },
+  {
+    "id": 236,
+    "section": 3,
+    "page": 9,
+    "en": "foreigner",
+    "ua": "іноземець"
+  },
+  {
+    "id": 237,
+    "section": 3,
+    "page": 9,
+    "en": "to expand",
+    "ua": "розширити"
+  },
+  {
+    "id": 238,
+    "section": 3,
+    "page": 9,
+    "en": "arrival",
+    "ua": "прибуття"
+  },
+  {
+    "id": 239,
+    "section": 3,
+    "page": 9,
+    "en": "surrounding",
+    "ua": "оточення"
+  },
+  {
+    "id": 240,
+    "section": 3,
+    "page": 9,
+    "en": "to bloom",
+    "ua": "цвісти"
+  },
+  {
+    "id": 241,
+    "section": 3,
+    "page": 9,
+    "en": "blossom",
+    "ua": "цвітіння"
+  },
+  {
+    "id": 242,
+    "section": 3,
+    "page": 9,
+    "en": "decade",
+    "ua": "десятиліття"
+  },
+  {
+    "id": 243,
+    "section": 3,
+    "page": 9,
+    "en": "forbidden",
+    "ua": "заборонений"
+  },
+  {
+    "id": 244,
+    "section": 3,
+    "page": 9,
+    "en": "at least",
+    "ua": "принаймні"
+  },
+  {
+    "id": 245,
+    "section": 3,
+    "page": 9,
+    "en": "to approve",
+    "ua": "схвалювати"
+  },
+  {
+    "id": 246,
+    "section": 3,
+    "page": 9,
+    "en": "porter",
+    "ua": "носій"
+  },
+  {
+    "id": 247,
+    "section": 3,
+    "page": 9,
+    "en": "loader",
+    "ua": "вантажник"
+  },
+  {
+    "id": 248,
+    "section": 3,
+    "page": 9,
+    "en": "government",
+    "ua": "уряд"
+  },
+  {
+    "id": 249,
+    "section": 3,
+    "page": 9,
+    "en": "destination",
+    "ua": "місце призначення"
+  },
+  {
+    "id": 250,
+    "section": 3,
+    "page": 9,
+    "en": "contribution",
+    "ua": "внесок"
+  },
+  {
+    "id": 251,
+    "section": 3,
+    "page": 9,
+    "en": "stranger",
+    "ua": "незнайомець"
+  },
+  {
+    "id": 252,
+    "section": 3,
+    "page": 9,
+    "en": "domestic animals",
+    "ua": "домашні тварини"
+  },
+  {
+    "id": 253,
+    "section": 3,
+    "page": 9,
+    "en": "to be in touch with",
+    "ua": "бути на зв'язку"
+  },
+  {
+    "id": 254,
+    "section": 3,
+    "page": 10,
+    "en": "requirement",
+    "ua": "вимога"
+  },
+  {
+    "id": 255,
+    "section": 3,
+    "page": 10,
+    "en": "law",
+    "ua": "закон"
+  },
+  {
+    "id": 256,
+    "section": 3,
+    "page": 10,
+    "en": "lawyer",
+    "ua": "юрист"
+  },
+  {
+    "id": 257,
+    "section": 3,
+    "page": 10,
+    "en": "citizen",
+    "ua": "житель"
+  },
+  {
+    "id": 258,
+    "section": 3,
+    "page": 10,
+    "en": "advantage",
+    "ua": "перевага"
+  },
+  {
+    "id": 259,
+    "section": 3,
+    "page": 10,
+    "en": "benefit",
+    "ua": "вигода"
+  }
+]

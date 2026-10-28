@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Англійський Словник — Інтерактивний Тренажер</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col items-center justify-between p-3 sm:p-6">
+
+  <header class="w-full max-w-3xl text-center mb-6">
+    <div class="inline-flex items-center justify-center space-x-2 bg-indigo-50 text-indigo-700 px-3 py-1 rounded-full text-xs sm:text-sm font-semibold mb-2">
+      <span>📚 Англійський Словник</span>
+      <span>•</span>
+      <span id="total-words-badge">168 слів</span>
+    </div>
+    <h1 class="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-2">
+      Тренажер Англійських Слів
+    </h1>
+    <p class="text-sm sm:text-base text-slate-500 max-w-lg mx-auto">
+      Обирайте розділи, тренуйте вимову, проходьте тести та засвоюйте нову лексику без труднощів.
+    </p>
+  </header>
+
+  <main class="w-full max-w-3xl flex-1 flex flex-col items-center">
+    
+    <!-- Filter Controls Card -->
+    <div class="w-full bg-white rounded-2xl shadow-sm border border-slate-200 p-4 mb-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
+        <div>
+          <label for="section-select" class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-1">
+            📂 Розділ:
+          </label>
+          <select id="section-select" onchange="onSectionChange()" class="w-full bg-slate-50 border border-slate-300 text-slate-800 text-sm rounded-xl p-2.5 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-all">
+            <option value="all">Усі розділи (168 слів)</option>
+            <option value="1">Розділ 1: Зовнішність та Характер</option>
+            <option value="2">Розділ 2: Лексика та Вирази (22.09)</option>
+            <option value="3">Розділ 3: (29.09)</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="page-select" class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-1">
+            📄 Сторінка:
+          </label>
+          <select id="page-select" onchange="onPageChange()" class="w-full bg-slate-50 border border-slate-300 text-slate-800 text-sm rounded-xl p-2.5 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-all">
+            <!-- Options populated dynamically in JS -->
+          </select>
+        </div>
+      </div>
+
+      <!-- Navigation Mode Tabs -->
+      <div class="flex p-1 bg-slate-100 rounded-xl space-x-1">
+        <button id="tab-cards" onclick="switchTab('cards')" class="flex-1 py-2 px-3 text-xs sm:text-sm font-semibold rounded-lg transition-all bg-white text-indigo-600 shadow-sm">
+          🃏 Картки
+        </button>
+        <button id="tab-quiz" onclick="switchTab('quiz')" class="flex-1 py-2 px-3 text-xs sm:text-sm font-semibold rounded-lg transition-all text-slate-600 hover:text-slate-900">
+          📝 Варіанти
+        </button>
+        <button id="tab-write" onclick="switchTab('write')" class="flex-1 py-2 px-3 text-xs sm:text-sm font-semibold rounded-lg transition-all text-slate-600 hover:text-slate-900">
+          ✍️ Письмо
+        </button>
+      </div>
+    </div>
+
+    <section id="cards-section" class="w-full flex flex-col items-center">
+      
+      <!-- Progress Bar & Actions -->
+      <div class="w-full flex items-center justify-between mb-2 px-1 text-xs sm:text-sm font-medium text-slate-500">
+        <span id="card-count-label">Слово 1 з 168</span>
+        <button onclick="shuffleCards()" class="inline-flex items-center space-x-1 text-indigo-600 hover:text-indigo-800 font-semibold transition-colors">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+          <span>Перемішати</span>
+        </button>
+      </div>
+      
+      <div class="w-full bg-slate-200 h-2 rounded-full overflow-hidden mb-5">
+        <div id="card-progress-bar" class="bg-indigo-600 h-full w-0 transition-all duration-300"></div>
+      </div>
+
+      <!-- 3D Flip Card Container -->
+      <div class="w-full perspective-1000 h-72 sm:h-80 cursor-pointer mb-6" onclick="flipCard()">
+        <div id="flashcard" class="flashcard relative w-full h-full transform-style-3d rounded-2xl shadow-md border border-slate-200">
+          
+          <!-- Card Front -->
+          <div class="card-face absolute inset-0 backface-hidden bg-white rounded-2xl p-6 sm:p-8 flex flex-col justify-between items-center text-center">
+            <span class="text-xs font-semibold uppercase tracking-wider text-indigo-500 bg-indigo-50 px-3 py-1 rounded-full">
+              English
+            </span>
+            <div class="flex-1 flex flex-col justify-center items-center">
+              <h2 id="card-en" class="text-2xl sm:text-4xl font-bold text-slate-900 mb-3">ordinary-looking</h2>
+              <button onclick="event.stopPropagation(); speakWord()" class="inline-flex items-center space-x-1.5 text-xs sm:text-sm font-medium bg-slate-100 hover:bg-indigo-50 text-slate-700 hover:text-indigo-600 px-3.5 py-1.5 rounded-full transition-all">
+                <svg class="w-4 h-4 text-indigo-500" fill="currentColor" viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+                <span>Озвучити</span>
+              </button>
+            </div>
+            <p class="text-xs text-slate-400">Торкніться, щоб перевернути 🔄</p>
+          </div>
+
+          <!-- Card Back -->
+          <div class="card-face absolute inset-0 backface-hidden rotate-y-180 bg-indigo-900 text-white rounded-2xl p-6 sm:p-8 flex flex-col justify-between items-center text-center">
+            <span class="text-xs font-semibold uppercase tracking-wider text-indigo-200 bg-indigo-800 px-3 py-1 rounded-full">
+              Переклад
+            </span>
+            <div class="flex-1 flex justify-center items-center">
+              <h3 id="card-ua" class="text-2xl sm:text-3xl font-bold">звичайна зовнішність</h3>
+            </div>
+            <p class="text-xs text-indigo-300">Торкніться, щоб перевернути 🔄</p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Card Controls -->
+      <div class="flex items-center justify-between w-full space-x-3">
+        <button onclick="prevCard()" class="flex-1 py-3 px-4 bg-white border border-slate-200 rounded-xl font-semibold text-slate-700 hover:bg-slate-50 transition-all shadow-sm flex justify-center items-center space-x-1">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+          <span class="hidden sm:inline">Назад</span>
+        </button>
+        <button onclick="flipCard()" class="flex-1 py-3 px-4 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl font-semibold transition-all shadow-md text-center">
+          Перевернути
+        </button>
+        <button onclick="nextCard()" class="flex-1 py-3 px-4 bg-white border border-slate-200 rounded-xl font-semibold text-slate-700 hover:bg-slate-50 transition-all shadow-sm flex justify-center items-center space-x-1">
+          <span class="hidden sm:inline">Вперед</span>
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+      <p class="text-xs text-slate-400 mt-3 text-center hidden sm:block">💡 Підказка: Використовуйте стрілки ⬅️ ➡️ та Пробіл на клавіатурі</p>
+    </section>
+
+    <section id="quiz-section" class="w-full hidden flex-col items-center">
+      
+      <!-- Quiz Direction Header -->
+      <div class="w-full flex items-center justify-between mb-4">
+        <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Напрямок тесту:</span>
+        <select id="quiz-direction" onchange="startQuiz()" class="bg-white border border-slate-200 text-xs sm:text-sm font-semibold text-indigo-600 rounded-lg p-2 outline-none">
+          <option value="en-ua">English ➔ Українська</option>
+          <option value="ua-en">Українська ➔ English</option>
+        </select>
+      </div>
+
+      <!-- Quiz Card -->
+      <div id="quiz-box" class="w-full bg-white rounded-2xl border border-slate-200 shadow-md p-6">
+        <div class="flex justify-between items-center mb-4">
+          <span id="quiz-step" class="text-xs font-semibold text-slate-400">Питання 1 з 10</span>
+          <span id="quiz-score-badge" class="text-xs font-bold text-indigo-600 bg-indigo-50 px-2.5 py-1 rounded-full">Правильно: 0</span>
+        </div>
+
+        <div class="w-full bg-slate-100 h-1.5 rounded-full overflow-hidden mb-6">
+          <div id="quiz-progress-bar" class="bg-indigo-600 h-full w-0 transition-all"></div>
+        </div>
+
+        <h3 id="quiz-question-text" class="text-2xl sm:text-3xl font-extrabold text-slate-900 text-center mb-8">
+          ordinary-looking
+        </h3>
+
+        <!-- Choices Grid -->
+        <div id="quiz-options-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-2">
+          <!-- Dynamically inserted buttons -->
+        </div>
+      </div>
+
+      <!-- Quiz Results Screen -->
+      <div id="quiz-results" class="w-full bg-white rounded-2xl border border-slate-200 shadow-md p-8 text-center hidden">
+        <div class="w-20 h-20 bg-indigo-100 text-indigo-600 rounded-full flex items-center justify-center text-3xl font-black mx-auto mb-4" id="quiz-res-percent">
+          100%
+        </div>
+        <h3 class="text-2xl font-bold text-slate-900 mb-1">Чудова робота!</h3>
+        <p id="quiz-res-detail" class="text-sm text-slate-500 mb-6">Ви правильно відповіли на 10 з 10 слів.</p>
+
+        <div id="quiz-mistakes-wrapper" class="text-left border-t border-slate-100 pt-4 mb-6 hidden">
+          <h4 class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-3">Помилки в тесті:</h4>
+          <div id="quiz-mistakes-list" class="max-h-48 overflow-y-auto space-y-2 text-sm pr-1"></div>
+        </div>
+
+        <button onclick="startQuiz()" class="w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl font-semibold shadow-md transition-all">
+          Спробувати знову 🔄
+        </button>
+      </div>
+    </section>
+
+    <section id="write-section" class="w-full hidden flex-col items-center">
+      
+      <div id="write-box" class="w-full bg-white rounded-2xl border border-slate-200 shadow-md p-6">
+        <div class="flex justify-between items-center mb-4">
+          <span id="write-step" class="text-xs font-semibold text-slate-400">Слово 1 з 10</span>
+          <span id="write-score-badge" class="text-xs font-bold text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-full">Вірно: 0</span>
+        </div>
+
+        <div class="w-full bg-slate-100 h-1.5 rounded-full overflow-hidden mb-6">
+          <div id="write-progress-bar" class="bg-emerald-500 h-full w-0 transition-all"></div>
+        </div>
+
+        <span class="block text-center text-xs uppercase tracking-wider font-bold text-slate-400 mb-1">Напишіть англійською:</span>
+        <h3 id="write-question-text" class="text-2xl sm:text-3xl font-extrabold text-slate-900 text-center mb-6">
+          звичайна зовнішність
+        </h3>
+
+        <form onsubmit="handleWriteSubmit(event)" class="space-y-4">
+          <input type="text" id="write-input" autocomplete="off" placeholder="Введіть переклад англійською..." class="w-full p-4 border-2 border-slate-200 rounded-xl text-lg text-slate-900 focus:border-indigo-600 focus:ring-0 outline-none transition-all text-center font-medium">
+          <button type="submit" id="write-submit-btn" class="w-full py-3.5 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl shadow-md transition-all">
+            Перевірити
+          </button>
+        </form>
+
+        <div id="write-feedback" class="mt-4 p-3 rounded-xl text-center text-sm font-semibold hidden"></div>
+      </div>
+
+      <!-- Written Test Results Screen -->
+      <div id="write-results" class="w-full bg-white rounded-2xl border border-slate-200 shadow-md p-8 text-center hidden">
+        <div class="w-20 h-20 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center text-3xl font-black mx-auto mb-4" id="write-res-percent">
+          100%
+        </div>
+        <h3 class="text-2xl font-bold text-slate-900 mb-1">Результат письмового тесту</h3>
+        <p id="write-res-detail" class="text-sm text-slate-500 mb-6">Ви правильно відповіли на 10 з 10 слів.</p>
+
+        <div id="write-mistakes-wrapper" class="text-left border-t border-slate-100 pt-4 mb-6 hidden">
+          <h4 class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-3">Деталі помилок:</h4>
+          <div id="write-mistakes-list" class="max-h-48 overflow-y-auto space-y-2 text-sm pr-1"></div>
+        </div>
+
+        <button onclick="startWriteTest()" class="w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl font-semibold shadow-md transition-all">
+          Пройти письменний тест знову ✍️
+        </button>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="w-full max-w-3xl text-center text-xs text-slate-400 py-4 mt-6">
+    Навчальний додаток для вивчення англійської лексики • Всі 7 сторінок конспекту
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
